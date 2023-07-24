@@ -1,0 +1,8 @@
+.label {
+  width: 100%;
+}
+.label section {
+  height: 0.063rem;
+  background: #333;
+  margin-top: 0.75rem;
+}

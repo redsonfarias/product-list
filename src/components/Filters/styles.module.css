@@ -1,0 +1,16 @@
+.filters {
+  margin: 1rem 3rem 0 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filters div {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.filters p {
+  font-size: 0.75rem;
+}

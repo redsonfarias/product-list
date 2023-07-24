@@ -1,0 +1,48 @@
+.productList {
+  flex: 1;
+}
+
+.list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 12rem);
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  font-size: 0.75rem;
+  font-weight: 700;
+  max-width: 10rem;
+}
+
+.msg {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 60rem) {
+  .list {
+    grid-template-columns: repeat(2, 12rem);
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 60rem) {
+  .list {
+    grid-template-columns: repeat(2, 10rem);
+  }
+}

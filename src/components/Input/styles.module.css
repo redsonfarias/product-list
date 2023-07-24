@@ -1,0 +1,38 @@
+.input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 20rem;
+  border-bottom: 0.125rem solid var(--green);
+  color: var(--green);
+}
+
+.input input {
+  outline: 0;
+  border-width: 0;
+  padding: 0.5rem 0.25rem 0.25rem 0;
+  color: var(--green);
+  font-weight: 500;
+  flex: 1;
+}
+
+.input input::placeholder {
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.input input:focus {
+  outline: transparent;
+}
+
+.input input:focus::-webkit-input-placeholder {
+  transition: text-indent 2s 0.4s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+
+@media screen and (max-width: 30rem) {
+  .input input {
+    max-width: none;
+  }
+}

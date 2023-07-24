@@ -1,0 +1,28 @@
+:root {
+  --green: #5FA59B;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--white);
+}
+
+body, input, button {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
