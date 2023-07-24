@@ -32,7 +32,7 @@
 }
 
 @media screen and (max-width: 30rem) {
-  .input input {
+  .input {
     max-width: none;
   }
 }

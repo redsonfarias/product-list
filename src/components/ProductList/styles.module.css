@@ -5,7 +5,7 @@
 .list {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 12rem);
+  grid-template-columns: repeat(4, 12rem);
   gap: 1rem;
   justify-content: space-between;
   margin-top: 2rem;
@@ -34,6 +34,12 @@
   text-align: center;
 }
 
+@media screen and (max-width: 70rem) {
+  .list {
+    grid-template-columns: repeat(3, 12rem);
+  }
+}
+
 @media screen and (max-width: 60rem) {
   .list {
     grid-template-columns: repeat(2, 12rem);
@@ -41,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 30rem) {
   .list {
     grid-template-columns: repeat(2, 10rem);
   }
